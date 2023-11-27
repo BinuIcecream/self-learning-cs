@@ -19,7 +19,7 @@ int main()
 
 ```c
 01 #include <stdio.h>
-02 #include <unistd.h>
+02 #include <unistd.h> //리눅스 환경에서 실행되는거라 이 헤더파일을 읽어들이지 못한다.
 03 
 04 int main()
 05 {
